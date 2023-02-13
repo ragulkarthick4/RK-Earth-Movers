@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Square+Peg&display=swap');
+.header{
+    background-color:#FCB026;
+    height:120px;
+    text-align:center;
+}
+.header h1{
+    font-family: 'Righteous', cursive;
+
+}
+.header p{
+    font-family: 'Square Peg', cursive;
+    font-size:24px;
+    font-weight: bold;
+}
+

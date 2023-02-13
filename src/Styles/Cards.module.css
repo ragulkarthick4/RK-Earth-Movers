@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+.Cards h1{
+    font-family: 'Jost', sans-serif;;
+}
+.form{
+    background: url("../Images/login.jpg");
+}
+.Cards{
+    border:2px solid black;
+    width:380px;
+    margin:5px;
+    padding:12px;
+    cursor:pointer;
+    border-radius: 14px;
+    /* display:inline-flex; */
+}
+.Cards h1{
+text-align:center;
+}
+
+.Auth_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:whitesmoke;
+  }
+  
+  .Auth_form {
+    width: 460px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth_form_content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth_form_title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+
+#toggle{
+cursor: pointer;
+}
+
+

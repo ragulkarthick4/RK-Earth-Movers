@@ -1,0 +1,44 @@
+/* FCB026 */
+
+.img_wrap {
+    position: relative;
+    /* height: 200px;
+    width: 257px; */
+  }
+  
+  .img_desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top:170px;
+    /* width: 48em;
+    height:10em; */
+    /* background: #ffc251; */
+    color: #fff;
+    visibility: hidden;
+    opacity: 0.8;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img_wrap:hover .img_desc {
+    visibility: visible;
+    opacity: 1;
+  }
+  .img_wrap:hover img{
+opacity: 0.4;
+  }
+
+  .footer{
+    background:black;
+    color:#FCB026;
+  }
+  .foot{
+    background-color: #ffda97;
+    color:black;
+    text-align: center;
+  }
